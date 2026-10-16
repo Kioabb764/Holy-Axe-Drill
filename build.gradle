@@ -29,13 +29,9 @@ sourceSets.main.resources {
 repositories.clear()
 
 repositories {
-    // 使用 Lss233's Mirror 替换 libraries.minecraft.net（镜像了 Minecraft 官方库）
-    maven {
-        name = "Lss233 Mirror - Minecraft Libraries"
-        url = "https://lss233.littleservice.cn/repositories/minecraft/"
-    }
 
-    // NeoForge 官方 CDN 镜像（替换 maven.neoforged.net）
+
+    // NeoForge 官方 CDN 镜像
     maven {
         name = "NeoForged CDN Releases"
         url = "https://neoforged.forgecdn.net/releases"
@@ -43,6 +39,33 @@ repositories {
     maven {
         name = "NeoForged CDN Mojang Meta"
         url = "https://neoforged.forgecdn.net/mojang-meta"
+    }
+    // Minecraft 官方库
+    maven {
+        name = "Minecraft Libraries"
+        url = "https://libraries.minecraft.net/"
+    }
+    // NeoForge 官方仓库
+    maven {
+        name = "NeoForged Releases"
+        url = "https://maven.neoforged.net/releases"
+    }
+    maven {
+        name = "NeoForged Mojang Meta"
+        url = "https://maven.neoforged.net/mojang-meta"
+    }
+    // 第三方镜像
+    maven {
+        name = "QLU BMCLAPI"
+        url = "https://mirrors4.qlu.edu.cn/bmclapi/maven/"
+    }
+    maven {
+        name = "NYIST BMCLAPI"
+        url = "https://mirror.nyist.edu.cn/bmclapi/"
+    }
+    maven {
+        name = "LZU BMCLAPI"
+        url = "https://mirror.lzu.edu.cn/bmclapi/maven/"
     }
 
     mavenCentral()
