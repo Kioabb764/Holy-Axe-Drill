@@ -1,0 +1,13 @@
+{
+  "itemGroup.holyaxedrill": "Example Mod Tab",
+  "block.holyaxedrill.example_block": "Example Block",
+  "item.holyaxedrill.example_item": "Example Item",
+
+  "holyaxedrill.configuration.title": "Holy axedrill Configs",
+  "holyaxedrill.configuration.section.holyaxedrill.common.toml": "Holy axedrill Configs",
+  "holyaxedrill.configuration.section.holyaxedrill.common.toml.title": "Holy axedrill Configs",
+  "holyaxedrill.configuration.items": "Item List",
+  "holyaxedrill.configuration.logDirtBlock": "Log Dirt Block",
+  "holyaxedrill.configuration.magicNumberIntroduction": "Magic Number Text",
+  "holyaxedrill.configuration.magicNumber": "Magic Number"
+}
